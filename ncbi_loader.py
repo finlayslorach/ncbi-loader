@@ -7,8 +7,6 @@ from Bio import SeqIO
 import time
 
 
-Entrez.email='finlayslorach@gmail.com'
-
 # Query 
 class NcbiReader(BaseReader):
     """
